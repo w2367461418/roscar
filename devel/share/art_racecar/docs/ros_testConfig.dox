@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~baseSpeed" : \b [int] base_speeder min: 0, default: 1, max: 10
+

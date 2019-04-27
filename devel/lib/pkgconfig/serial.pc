@@ -1,0 +1,8 @@
+prefix=/home/wyx/racecar/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/wyx/racecar/src/serial/include
+Libs: -L/home/wyx/racecar/devel/lib -lserial -lrt -lpthread
+Requires: 

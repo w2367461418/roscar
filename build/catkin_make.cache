@@ -1,0 +1,2 @@
+art_driver:art_imu:art_racecar:base_local_planner:costmap_2d:global_planner:ls01g:move_base:nav_core:navigation:rf2o_laser_odometry:serial:simulation_launch
+-DCATKIN_DEVEL_PREFIX=/home/wyx/racecar/devel -DCMAKE_INSTALL_PREFIX=/home/wyx/racecar/install -G Unix Makefiles

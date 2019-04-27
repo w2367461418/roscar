@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="art_racecar" pkg="art_racecar" type="art_racecar">
+  <param name="base_speed" type="int" value="1" />
+</node>
+\endverbatim
+

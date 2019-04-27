@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<launch>
+
+
+    <!-- L1 controller -->  
+    <node pkg="art_racecar" type="art_car_controller" respawn="false" name="art_car_controller" output="screen">       
+        <!-- L1 小车的速度-->
+        <param name="Vcmd" value="1.5" /> <!-- speed of car m/s -->        
+        <!-- ESC 电机-->   
+        <param name="baseSpeed" value="1565"/> <!-- pwm for motor constant speed, 1500: stop --> 
+ 
+
+        <!-- Servo 舵机-->
+        <param name="baseAngle" value="90.0"/> <!-- the middle pos of servo, for tt02: 87, for hsp: ? 中值-->
+        <param name="AngleGain" value="-3.0"/> <!-- for tt02: >0, for hsp: <0 增加的舵机角度-->	
+        <param name="GasGain" value="1.0"/>
+
+        <!-- remap from="/odometry/filtered" to="odom" / --> 
+        <remap from="/move_base_node/NavfnROS/plan" to="/move_base/NavfnROS/plan" /> 
+    </node>
+    <!-- Rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find art_racecar)/rviz/amcl.rviz" if="$(arg use_rviz)" />  
+</launch>

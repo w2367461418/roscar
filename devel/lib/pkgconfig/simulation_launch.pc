@@ -1,0 +1,8 @@
+prefix=/home/wyx/racecar/devel
+
+Name: simulation_launch
+Description: Description of simulation_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wyx/racecar/devel/lib 
+Requires: 

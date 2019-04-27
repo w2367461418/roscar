@@ -1,0 +1,17 @@
+clearing_rotation_allowed: false
+controller_frequency: 10.0
+controller_patience: 3.0
+oscillation_distance: 0.2
+oscillation_timeout: 10.0
+planner_frequency: 10.0
+planner_patience: 5.0
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_localhost__36615: 'http://localhost:36615/'}
+rosversion: '1.12.14
+
+  '
+run_id: 4e834356-5059-11e9-af13-701ce7699b9b
+shutdown_costmaps: false

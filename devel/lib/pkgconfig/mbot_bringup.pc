@@ -1,0 +1,8 @@
+prefix=/home/wyx/racecar/devel
+
+Name: mbot_bringup
+Description: Description of mbot_bringup
+Version: 0.0.0
+Cflags: -I/home/wyx/racecar/src/mbot_bringup/include
+Libs: -L/home/wyx/racecar/devel/lib 
+Requires: 

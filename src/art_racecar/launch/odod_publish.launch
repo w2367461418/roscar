@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="art_racecar" type="odom_publish" name="odom_publish" output="screen"/>
+	<node pkg="art_racecar" type="point_kinect_node" name="point_kinect_node" output="screen"/>
+
+</launch>

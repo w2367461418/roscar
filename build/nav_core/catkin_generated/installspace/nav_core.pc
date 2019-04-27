@@ -1,0 +1,8 @@
+prefix=/home/wyx/racecar/install
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.16.2
+Cflags: -I/home/wyx/racecar/install/include
+Libs: -L/home/wyx/racecar/install/lib 
+Requires: std_msgs geometry_msgs tf2_ros costmap_2d

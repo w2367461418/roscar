@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o  -o /home/wyx/racecar/devel/lib/serial/serial-test-timer  -L/home/wyx/racecar/build/gtest -rdynamic ../../gtest/gtest/libgtest.so /home/wyx/racecar/devel/lib/libserial.so -lpthread -lrt -lpthread -Wl,-rpath,/home/wyx/racecar/build/gtest:/home/wyx/racecar/build/gtest/gtest:/home/wyx/racecar/devel/lib 
